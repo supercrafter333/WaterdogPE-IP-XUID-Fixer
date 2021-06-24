@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/supercrafter333/WaterdogPE-IP-XUID-Fixer
+build-by-default: true
+branches:
+- master
+projects:
+  WaterdogPE-IP-XUID-Fixer:
+    path: ""
+...
