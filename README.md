@@ -3,6 +3,8 @@
 
 A PocketMine-MP plugin that fixes the wrong setted Ip and Xuid player-settings in PocketMine-MP caused by Waterdog(PE).
 
+Download [.phar on Poggit](https://poggit.pmmp.io/ci/supercrafter333/WaterdogPE-IP-XUID-Fixer/~).
+
 ### What does this fix?
 
 ##### IP
