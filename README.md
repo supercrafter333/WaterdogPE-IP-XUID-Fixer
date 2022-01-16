@@ -1,23 +1,24 @@
-# WaterdogPE-IP-XUID-Fixer - V1.0.0
-<hr />
+# RealIP - V1.0.0
 
-A PocketMine-MP plugin that fixes the wrong setted Ip and Xuid player-settings in PocketMine-MP caused by Waterdog(PE).
+---
 
-Download [.phar on Poggit](https://poggit.pmmp.io/ci/supercrafter333/WaterdogPE-IP-XUID-Fixer/~).
+This plugin is intended for use with the [WaterdogPE](https://github.com/WaterdogPE/WaterdogPE) proxy software and will restore the users Original IP and XUID, which is lost during the proxying process.
 
-### What does this fix?
+Download the [.phar on Poggit](https://poggit.pmmp.io/ci/sfilentbot/RealIP/~).
 
-##### IP
-Before (unfixed): server-ip
+## Requirements
+- This plugin requires the `use_login_extras` to be set to `true` in the WaterdogPE `config.yml`.
+- This plugin is to be installed on only the PM4 server.
 
-Now (fixed): player-ip
+### What does this change?
 
-<br />
+#### IP
+- Without this plugin: Proxy Internal IP
+- With this plugin: Player Origin IP
 
-##### XUID
-Before (unfixed): ""
-
-Now (fixed): player-xuid
+#### XUID
+- Without this plugin: `""` (Empty String)
+- With this plugin: Players XUID
 
 
 ### License

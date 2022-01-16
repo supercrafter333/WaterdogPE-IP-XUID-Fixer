@@ -1,6 +1,6 @@
 <?php
 
-namespace supercrafter333\WaterdogPEFixer;
+namespace silentbot\WaterdogPEFixer;
 
 use pocketmine\event\Listener;
 use pocketmine\event\server\DataPacketReceiveEvent;
@@ -25,6 +25,7 @@ class WaterdogPEFixer extends PluginBase implements Listener
     public function onPacketReceive(DataPacketReceiveEvent $event): void {
         $packet = $event->getPacket();
         if($packet instanceof LoginPacket) {
+            #TODO: FIX Why do we iterate all interfaces on every connection?
             foreach ( $this->getServer()->getNetwork()->getInterfaces() as $interface ) {
                 if ( $interface instanceof RakLibInterface ) {
                     try {
@@ -51,7 +52,4 @@ class WaterdogPEFixer extends PluginBase implements Listener
             }
         }
     }
-    #################################
-    #################################
-    #################################
 }

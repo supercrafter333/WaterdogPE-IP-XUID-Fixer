@@ -1,8 +1,8 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/supercrafter333/WaterdogPE-IP-XUID-Fixer
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/silentbot/RealIP
 build-by-default: true
 branches:
 - master
 projects:
-  WaterdogPE-IP-XUID-Fixer:
+  RealIP:
     path: ""
 ...
